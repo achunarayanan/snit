@@ -1,0 +1,277 @@
+body{
+    background-color:#2B3467;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Michroma', sans-serif; */
+    text-align: center;
+}
+nav{
+    background-color:#BAD7E9;
+}
+.navbar-nav{
+    position: relative;
+    top: 10px;
+}
+.nav-search{
+    position: relative;
+    bottom: 6px;
+}
+
+.navbar-snit{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Michroma', sans-serif;  
+   font-size: 2rem;
+   font-weight: bold;
+}
+
+.nav-items{
+    font-size: 2rem;
+}
+.offcanvas-title{
+    font-family: 'Michroma', sans-serif;  
+}
+.offcanvas{
+    background-color: #BAD7E9;
+}
+
+#carousel{
+    background-color: #BAD7E9;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.carousel-img{
+    border-radius: 1%;
+    width: 100%;
+}
+/* .title-carousel{
+    padding:1% 5%;
+} */
+
+.title-heading{
+    padding-top: 6%;
+    color: white;
+    font-weight: bold;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Michroma', sans-serif;
+    margin:auto;
+    line-height: 2;
+    width: 70%;
+    font-size: 3rem;
+}
+.tittle-description{
+    width:60%;
+    font-size: 1.2rem;
+    margin:2% auto;
+    color: white;
+}
+#title{
+    padding-bottom: 10%;
+}
+.reg-btn{
+    position: relative;
+    top:45px;
+
+}
+
+/* features */
+
+#features{
+    background-color: #2B3467 ;
+    padding: 7%;
+}
+.cards{
+    padding:25px;
+}
+.card-header{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Michroma', sans-serif;
+  
+}
+.card-title{
+    width: 70%;
+    margin: 5% auto;
+
+}
+
+/* facilities */
+
+#images{
+    color: white;
+    padding-bottom: 70px;
+    padding: 5%;
+}
+
+.facility-heading{
+    font-weight: bold;
+    position: relative;
+    bottom: 50px;
+    text-align: left;
+     padding:5%;
+     font-family: 'Michroma', sans-serif;
+}
+.facility-sub{
+    font-weight: bold;
+    text-align: left;
+    padding:5% ;
+    font-family: 'Michroma', sans-serif;
+}
+.facility-para{
+    padding:0 5%;
+    line-height: 2;
+    text-align: left;
+}
+
+/* registration */
+
+#registration{
+    background-color: #BAD7E9;
+    padding: 7% 15%;
+}
+
+.forms{
+   border: 1px solid;
+    margin: auto;
+    padding: 5%;
+    width:70%;
+    background-color: white;
+    border-radius: 3%;
+}
+.registration-heading{
+
+   margin-bottom: 60px;
+   font-weight: bold;
+   font-family: 'Michroma', sans-serif; 
+
+}
+#contact{
+    padding: 7% 15%;
+    background-color:#2B3467 ;
+
+}
+.contact-info{
+    margin: 5% auto;
+    font-weight: bold;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+}
+
+/* faculties */
+
+.faculty-img{
+    width: 30%;
+    height: 70%;
+    border-radius: 10%;
+    border: 5px solid #BAD7E9;
+}
+.faculty-name{
+    padding: 2%;
+    color: white;
+    font-size: 1.5rem;
+}
+.faculty-heading{
+    color: white;
+    font-weight: bold;
+    padding: 5%;
+    font-family: 'Michroma', sans-serif;
+    font-size: 2rem;
+}
+.faculty-box{
+    padding-bottom: 20px;
+}
+#contact-faculty{
+    background-color: #BAD7E9;
+    padding: 7% 15%;
+    position: relative;
+    top:135px;
+}
+.contact-info-faculty{
+    color: black;
+    font-weight: bold;
+    padding: 3%;
+    font-family: 'Michroma', sans-serif;
+}
+
+
+@media (max-width:1028px) {
+
+    #title{
+        padding-bottom: 70px;
+    }
+    .nav-search{
+        padding-top: 10px;
+    }
+
+    .forms{
+        width: 100%;
+    }
+
+    .title-carousel{
+        padding:10% 1%;
+    }
+
+    .carousel-img{
+        border-radius: 1%;
+    }
+
+    .registration-heading{
+        margin-top: 50px;
+        font-size:1.5rem;
+    }
+    #registration{
+        padding-bottom: 20%;
+    }
+    .title-heading{
+        font-size: 1.5rem;
+        padding-top: 50px;
+    }
+    .tittle-description{
+        font-size: .8rem;
+    }
+    .card-header{
+        font-size: 1rem;
+    }
+    .contact-info{
+        font-size:1rem;
+    }
+    .faculty-img{
+        width: 50%;
+        height: 70%;
+    }
+    .faculty-name{
+        padding: 4%;
+        color: white;
+        font-size: .9rem;
+    }
+    .faculty-heading{
+        padding-top: 40px;
+        font-size: 1.5rem;  
+    }
+    .faculty-box{
+        padding: 0;
+    }
+    #contact-faculty{
+        position: relative;
+        top:70px;
+    }
+    .facility-heading{
+        position: relative;
+        bottom: 10px;
+        font-size: 1.5rem;
+    }
+    .facility-sub{
+        font-size: 1rem;
+    }
+    .facility-para{
+       font-size: 1rem;
+    }
+    .contact-info-faculty{
+        font-size: 1.5rem;
+    }
+    .reg-btn{
+        position: relative;
+        top:22px;
+    }
+    
+    
+}
